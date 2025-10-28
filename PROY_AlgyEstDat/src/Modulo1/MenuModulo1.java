@@ -34,7 +34,7 @@ public class MenuModulo1 extends JFrame{
 
         JButton btnTeoria = new JButton("Teoría");
         JButton btnEjercicios = new JButton("Ejercicios");
-        JButton btnSalir = new JButton("Salir");
+        JButton btnSalir = new JButton("Volver al menu principal");
 
         btnTeoria.setPreferredSize(new Dimension(180, 50));
         btnEjercicios.setPreferredSize(new Dimension(180, 50));
@@ -49,11 +49,6 @@ public class MenuModulo1 extends JFrame{
 
         add(centro, BorderLayout.CENTER);
 
-        JPanel bottom = new JPanel();
-        JLabel lblInfo = new JLabel("Integra esta ventana desde tu login llamando: new MenuPrincipalFrame(usuario).setVisible(true)");
-        bottom.add(lblInfo);
-        add(bottom, BorderLayout.SOUTH);
-
         btnTeoria.addActionListener(e -> {
             TeoriaFrame tf = new TeoriaFrame();
             tf.setVisible(true);
@@ -65,7 +60,10 @@ public class MenuModulo1 extends JFrame{
         });
 
         btnSalir.addActionListener(e -> {
-            dispose();
+            //cambio el dispose() para que envíe al menú principal.
+        Menus.Menu GN = new Menus.Menu();
+        GN.setVisible(true);
+        dispose();
         });
     }
 }
