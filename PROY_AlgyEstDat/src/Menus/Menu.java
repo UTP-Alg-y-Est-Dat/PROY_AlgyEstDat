@@ -92,6 +92,11 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        String nombreUsuario = "usuario_prueba"; // o pásalo desde tu login
+        Modulo1.MenuModulo1 modulo = new Modulo1.MenuModulo1(nombreUsuario);
+        modulo.setVisible(true);
+    }
     /**
      * @param args the command line arguments
      */
