@@ -9,5 +9,6 @@ package Temp;
  * @author Usuario
  */
 public class NewClass2 {
-    
+    hola como estas;
+    int dato;
 }
