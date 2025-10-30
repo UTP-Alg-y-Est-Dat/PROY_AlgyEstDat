@@ -18,6 +18,13 @@ public class proces {
         int dato;
         int num;
         System.out.println("Ingrese el numero: ");
+        
+        
+        
+        
+        int algo;
+        String cualquiercosa;
+        //4ET5RE4RYE
     }
     
 }
