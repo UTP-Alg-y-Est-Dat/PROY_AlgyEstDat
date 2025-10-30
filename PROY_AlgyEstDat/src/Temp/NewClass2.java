@@ -9,6 +9,10 @@ package Temp;
  * @author Usuario
  */
 public class NewClass2 {
+<<<<<<< HEAD
     hola como estas;
     int dato;
+=======
+    hola como estan 
+>>>>>>> 0367ea8a7b21308f76f5a2adfbd4b55d687760a8
 }
