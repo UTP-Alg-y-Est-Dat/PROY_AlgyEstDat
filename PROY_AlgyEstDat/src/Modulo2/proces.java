@@ -1,30 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package Modulo2;
 
-/**
- *
- * @author USER
- */
-public class proces {
+import javax.swing.SwingUtilities;
 
-    /**
-     * @param args the command line arguments
-     */
+public class mainModulo2 {
     public static void main(String[] args) {
-        // TODO code application logic here
-        int dato;
-        int num;
-        System.out.println("Ingrese el numero: ");
-        
-        
-        
-        
-        int algo;
-        String cualquiercosa;
-        //4ET5RE4RYE
+        SwingUtilities.invokeLater(() -> {
+            MenuModulo2 menu = new MenuModulo2("usuario_prueba");
+            menu.setVisible(true);
+        });
     }
-    
 }
+
